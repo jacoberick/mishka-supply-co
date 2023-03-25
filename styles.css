@@ -2,6 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background: #121212;
   color: #fefefe;
   height: 100vh;
@@ -11,4 +12,9 @@ body {
 h1 {
   text-align: center;
   padding: 1rem;
+}
+
+img {
+  width: 25%;
+  border-radius: 2%;
 }
